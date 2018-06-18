@@ -42,12 +42,6 @@
   cursor: pointer;
   color: #ffffff;
 }
-.chat .chat-content {
-  overflow-y: scroll;
-}
-.chat .chat-content img {
-  width: 30px;
-}
 .chat .chat-foot {
   height: 60px;
   position: relative;
@@ -76,7 +70,11 @@
 .chat .chat-foot .chat-foot-list-icon li i {
   color: #bfbfbf;
   margin-top: 2px;
-  margin-right: 17px;
+  margin-right: 16px;
+}
+.chat .chat-foot .chat-foot-list-icon li i:hover, .chat .chat-foot .chat-foot-list-icon li i.is-select {
+  color: #0075ff;
+  cursor: pointer;
 }
 
 .skin-blue {
