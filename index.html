@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook - Chat Module</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet prefetch' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <main>
+  <div class="chat skin-chat-border skin-bottom-zero" v-if="chatView">
+    <div class="chat-head skin-blue skin-chat-border">
+      <span class="chat-connect"></span>
+      <p class="chat-name">Yerlin Matu</p>
+      <div class="chat-head-list-icon">
+        <ul>
+          <li><i class="fas fa-user-plus"></i></li>
+          <li><i class="fas fa-video"></i></li>
+          <li><i class="fas fa-phone"></i></li>
+          <li><i class="fas fa-cog"></i></li>
+          <li><i class="fas fa-times fa-lg" @click="closeChat"></i></li>
+        </ul>
+      </div>
+    </div>
+    <div class="chat-content skin-padding-rl"></div>
+    <div class="chat-foot skin-white skin-padding-rl">
+      <textarea placeholder="Type a message..." autofocus></textarea>
+      <div class="chat-foot-list-icon">
+        <ul>
+          <li><i class="fas fa-camera fa-lg"></i></li>
+          <li><i class="fas fa-smile fa-lg"></i></li>
+          <li><i class="fas fa-gift fa-lg"></i></li>
+          <li><i class="fas fa-gamepad fa-lg"></i></li>
+          <li><i class="fas fa-donate fa-lg"></i></li>
+          <li><i class="fas fa-paperclip fa-lg"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
